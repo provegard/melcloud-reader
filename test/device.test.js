@@ -48,7 +48,7 @@ describe("Device.describeMode", () => {
     ];
     for (const row of DATA) {
         const [id, desc] = row;
-        it(`with ${id} as '${desc}`, () => expect(describe(id)).toBe(desc));
+        it(`with ${id} as '${desc}'`, () => expect(describe(id)).toBe(desc));
     }
 
     it("with unknown as the mode number itself", () => {
